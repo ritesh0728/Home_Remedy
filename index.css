@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.header{
+    background-color: #00aa74;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.about{
+    display: flex;
+    background-color: #212121;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.219);
+    width:800px;
+    height: 80px;
+    margin: 2% auto 0 auto;
+    padding: 20px 20px 20px 20px;
+    color:white;
+    font-size: 18px;
+}
+.main{
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.219);
+    width:800px;
+    height: 300px;
+    margin: auto;
+}
+#issues{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Franklin Gothic Medium','Franklin Gothic Medium';
+    font-size: 16px;
+    min-width:500px;
+    padding: 10px;
+    border: 3px solid #000000;
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+.get-btn{
+    cursor: pointer;
+    font-size: 18px;
+    width: 100px;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #00aa74;
+    height: 30px;
+    color:white;
+    border-radius: 5px;
+}
+.get-btn:hover{
+    background-color: #00aa74;
+    scale: 0.98;
+    font-weight: bold;
+}
+#textarea{
+    display: flex;
+    margin: 20px auto 20px auto;
+    width: 500px;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    border: 3px solid #55fcc7;
+    outline: none;
+    box-shadow: none;
+}
+/*#footer{
+    margin-left:705px;
+}*/
+@media only screen and (max-width:1500px){
+    .about{
+    }
+    .main{
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .header{
+        color: white;
+    }
+    .about{
+    }
+    .main{
+    }
+}
+
+@media only screen and (max-width:800px){
+    .header{
+        color: white;
+    }
+    .about{
+        font-size: 16px;
+        width: 600px;
+    }
+    .main{
+        width: 600px;   
+    }
+    .get-btn{
+    }
+    #textarea{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .header{
+        color: white;
+    }
+    .about{
+        font-size: 16px;
+        width: 400px;
+    }
+    .main{
+        width: 400px;   
+    }
+    .get-btn{
+    }
+    #textarea{
+        min-width: 300px;
+    }
+    #issues{
+        min-width: 300px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .header{
+        color: white;
+    }
+    .about{
+        font-size: 16px;
+        width: 250px;
+    }
+    .main{
+        min-width: 250px;   
+    }
+    .get-btn{
+    }
+    #textarea{
+        min-width: 150px;
+    }
+}
